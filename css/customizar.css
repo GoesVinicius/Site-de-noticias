@@ -1,0 +1,16 @@
+@media only screen and (min-width: 993px) {
+    .container {
+      width: 90%;
+    }
+  }
+
+  .titulo {
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    line-height: 28px;
+}
+
+.opacidade {
+    opacity: 0.6;
+}
+

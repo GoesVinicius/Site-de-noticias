@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Materialize-->
+      <link rel="stylesheet" href="css/materialize.css">
+      <link rel="stylesheet" href="css/customizar.css">
+    <title>Materialize</title>
+</head>
+
+    <body>
+
+       <!--CABEÇALHO-->
+        <header>
+            <nav class="orange darken-4">
+                <div class="container ">
+                    <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo"><i class="material-icons">article</i></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="sass.html">Página Inicial</a></li>
+                        <li><a href="badges.html">Notícias</a></li>
+                        <li><a href="collapsible.html">Contato</a></li>
+                    </ul>
+                    </div>
+                </div>
+              </nav>
+            
+              <ul class="sidenav" id="mobile-demo">
+                <li><a href="sass.html">Página Inicial</a></li>
+                <li><a href="badges.html">Notícias</a></li>
+                <li><a href="collapsible.html">Contato</a></li>
+              </ul>
+        </header>
+
+        <!--SLIDER-->
+        <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="imagens/esmaga-carro.jpg" class="opacidade"> 
+                <div class="caption center-align">
+                  <h3 class="estiloh3">Acidente</h3>
+                  <h5 class="light grey-text text-lighten-3">Casal escapa por pouco de ser esmagado por carreta.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="imagens/racismo.jpg" class="opacidade"> 
+                <div class="caption left-align">
+                  <h3>Crime de Racismo</h3>
+                  <h5 class="light grey-text text-lighten-3">Vereadora relata arma de PM apontada para a cabeça em abordagem da PM.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="imagens/covid-cwb.jpg" class="opacidade"> 
+                <div class="caption right-align">
+                  <h3>Casos de Covid-19 aumentam</h3>
+                  <h5 class="light grey-text text-lighten-3">Curitiba volta para bandeira vermelha e fecha atendimento presencial de serviços não essenciais até 9 de junho</h5>
+                </div>
+              </li>
+              <li>
+                <img src="imagens/violencia.jpeg" class="opacidade"> 
+                <div class="caption center-align">
+                  <h3>Violência contra à mulher</h3>
+                  <h5 class="light grey-text text-lighten-3">mulher liga para a PM e fingiu pedir pizza para denunciar violência doméstica</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!--NOTICIAS-->
+          <div class="row container">
+              <section class="col s12 m6 l8">
+                <h5 class="orange-text text-darken-4 titulo">Últimas notícias</h5>
+
+                <article class="col s12 l6">
+                    <div class="card">
+                        <div class="card-image">
+                          <img src="imagens/esmaga-carro.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Casal desce do carro para buscar filha minutos antes de carreta tombar e esmagar veículo em Alexânia</span>
+                          <p>Segundo a dona do automóvel, o motorista do caminhão, carregado com 30 toneladas de eucalipto, perdeu o controle da direção ao fazer uma curva e não conseguiu evitar o acidente: 'Livramento de Deus'.</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="https://g1.globo.com/go/goias/transito/noticia/2021/05/28/casal-desce-do-carro-para-buscar-filha-minutos-antes-de-carreta-tombar-e-esmagar-veiculo-em-alexania.ghtml" target="_blank">Ler mais</a>
+                        </div>
+                      </div>
+                </article>
+
+                <article class="col s12 l6">
+                    <div class="card">
+                        <div class="card-image">
+                          <img src="imagens/racismo.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Vereadora relata arma apontada para cabeça em abordagem da PM; carro tinha 4 passageiros negros</span>
+                          <p>'Não é possível que pessoas negras num carro blindado possa causar tanta estranheza', disse Tainá de Paula. Caso ocorreu a menos de um quilômetro de onde a vereadora Marielle Franco foi perseguida e morta: 'A gente ficou muito abalado exatamente por causa disso'.</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="https://g1.globo.com/rj/rio-de-janeiro/noticia/2021/05/28/vereadora-relata-arma-apontada-para-cabeca-em-abordagem-da-pm-no-rio.ghtml" target="_blank">Ler mais</a>
+                        </div>
+                      </div>
+                </article>
+
+                <article class="col s12 l6">
+                    <div class="card">
+                        <div class="card-image">
+                          <img src="imagens/covid-cwb.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Curitiba volta para bandeira vermelha e fecha atendimento presencial de serviços não essenciais até 9 de junho</span>
+                          <p>Novo decreto foi publicado na tarde desta sexta-feira (28) e vale a partir deste sábado (29); veja restrições contra a Covid-19, que limitam atendimentos de restaurantes, comércio e shoppings.</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="https://g1.globo.com/pr/parana/noticia/2021/05/28/curitiba-volta-para-bandeira-vermelha-e-fecha-atendimento-presencial-de-servicos-nao-essenciais-ate-9-de-junho.ghtml" target="_blank">Ler mais</a>
+                        </div>
+                      </div>
+                </article>
+
+                <article class="col s12 l6">
+                    <div class="card">
+                        <div class="card-image">
+                          <img src="imagens/violencia.jpeg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Ouça áudio de mulher que ligou para a PM e fingiu pedir pizza para denunciar violência doméstica</span>
+                          <p>Caso foi registrado em Andradina (SP). Segundo a PM, mulher alegou que companheiro a ameaçou de morte; homem fugiu ao ver a viatura e não foi encontrado.</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/noticia/2021/05/28/audio-mostra-pedido-de-socorro-de-mulher-que-ligou-para-a-pm-pedindo-pizza-ouca.ghtml" target="_blank">Ler mais</a>
+                        </div>
+                      </div>
+                </article>
+
+
+              </section>
+
+              <!--ASIDE-->
+              <aside class="col s12 m6 l4">
+                <h5 class="orange-text text-darken-4 titulo">Outras Notícias</h5>
+
+                <ul class="collection">
+                    <li class="collection-item avatar">
+                      <img src="imagens/olivia.jpg" alt="" class="circle">
+                      <span class="title">Olívia Rodrigo</span>
+                      <p>Quem é a maior revelação do pop em 2021 <br>
+                      </p>
+                    </li>
+
+                    <li class="collection-item avatar">
+                      <img src="imagens/cinema.jpg" alt="" class="circle">
+                      <span class="title">Cinema</span>
+                      <p>Diretor de 'Cruella' confessa que não viu '101 dálmatas' <br>
+                      </p>
+                    </li>
+
+                   <li class="collection-item avatar">
+                      <img src="imagens/economia.jpeg" alt="" class="circle">
+                      <span class="title">Economia</span>
+                      <p>Preço do etanol dispara no Brasil; saiba mais <br>
+                      </p>
+                    </li>
+
+                    <li class="collection-item avatar">
+                        <img src="imagens/musica.jpg" alt="" class="circle">
+                        <span class="title">Música</span>
+                        <p>Reinado do sertanejo chegou ao fim? 5 pontos explicam os motivos <br>
+                        </p>
+                      </li>
+                  </ul>
+
+                  <div class="card blue-grey darken-1">
+                    <div class="card-content white-text center">
+                      <span class="card-title">Sobre o Autor</span>
+                      <img width="100" src="imagens/vini.jpg" class="circle responsive-img">
+                            <h6>Vinícius Góes</h6>
+                      <p>Estudante de Análise e Desenvolvimento de Sistemas, 23 anos e natural de Belo Horizonte MG.</p>
+                    </div>
+                  </div>
+              </aside>
+          </div>
+
+          <!--RODAPÉ-->
+          <footer class="page-footer orange darken-4">
+              <div class="container">
+                <div class="row center">
+                    <div class="col s12">
+                        Desenvolvido por Vinicius Góes | Maio 2021
+                    </div>
+                    <div class="col s12">
+                        <i class="material-icons">facebook</i>
+                        <i class="material-icons">language</i>
+                        <i class="material-icons">rss_feed</i>
+                    </div>
+                </div>
+              </div>
+          </footer>
+
+            <!--jQuery-->
+        <script src="js/jquery.js"></script>
+            <!--Materialize-->
+        <script src="js/materialize.js"></script>
+            <!--Scripts-->
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+                $('.slider').slider();
+            });
+        </script>    
+
+    </body>
+
+</html>
